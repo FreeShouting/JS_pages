@@ -1,0 +1,271 @@
+/*通配符*/
+*{
+    padding:0;
+    margin:0;
+    list-style: none;
+}
+/*头部的部分*/
+header{
+   width: 100%;
+    height:70px;
+
+}
+header .header_img{
+    width: 380px;
+    height: 54px;
+    margin: 25px 0 25px 90px;
+}
+/*中间内容的部分*/
+section{
+     width: 100%;
+    background: #df096b;
+    position: relative;
+}
+
+section .back_img{
+    width: 1160px;
+    height:600px;
+    margin-left: 100px;
+}
+/*login中最大的盒子*/
+#Login{
+    height: 380px;
+    background-color: #fff;
+    right:150px;
+    top:100px;
+    position: absolute;
+}
+
+
+/*中间登录框的内容*/
+section .login_box{
+    height: 380px;
+    background-color: #fff;
+    right:0;
+    top:0;
+    position: absolute;
+    display: block;
+}
+section #Ma img{
+    height: 51px;
+    width: 51px;
+    position: absolute;
+    top:0;
+    right: 0;
+    cursor: pointer;
+}
+
+section .login_box h4{
+     font-weight: 600;
+    margin: 35px 0 0 25px;
+
+}
+section .login_box form {
+    margin-top: 15px;
+}
+section .login_box .login_one{
+    margin-left: 25px;
+    margin-top: 10px;
+    width: 275px;
+    height:40px ;
+    box-sizing: border-box;
+    position: relative;
+}
+section .login_box .small{
+    height: 39px;
+    width: 39px;
+    background: #dddee0;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+section .login_box .login_two{
+    margin-left: 25px;
+    margin-top: 20px;
+    width: 275px;
+    height:40px ;
+    box-sizing: border-box;
+    position: relative;
+}
+
+section .login_box input{
+   padding-left: 40px;
+}
+section .login_box form button{
+    width: 275px;
+    height:40px ;
+    margin:20px 0 0 25px;
+    background: #fe0036;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+section .login_list{
+    width: 300px;
+    margin: 20px 0 0 25px;
+}
+
+section .login_list ul{
+    list-style: none;
+}
+
+section .login_list ul li {
+    float: right;
+    margin-right: 23px;
+}
+section .login_list ul .one{
+}
+
+section .login_list ul li a{
+    font-size: 12px;
+    color: black;
+}
+section .login_list ul li a:hover{
+    color: #ff0036;
+    text-underline: none;
+}
+/*登录框的第二部分*/
+section .login_box1{
+     width: 320px;
+    height: 380px;
+    background-color: #fff;
+    right:0;
+    top:0;
+    position: absolute;
+    display: none;
+}
+section #computer img{
+    height: 41px;
+    width: 41px;
+    position: absolute;
+    top:0;
+    right: 0;
+    cursor: pointer;
+}
+section .login_box1 h4{
+    font-weight: 600;
+    margin: 35px 0 0 25px;
+}
+section .login_box1 .picture{
+    margin: 35px 0 0 95px;
+}
+
+section .login_box1 picture img{
+    width: 125px;
+    height: 125px;
+
+}
+
+section .login_box1 .simple {
+    width: 200px;
+    margin:25px 0 0 50px;
+    position: relative;
+}
+section .login_box1 .simple ul li{
+    float: right;
+    margin-left: 10px;
+    color: #9c9c9c;
+}
+section .login_box1 .simple ul li a{
+    font-size: 12px;
+}
+section .login_box1 .simple ul .line{
+    padding-right: 12px;
+    border-right: 1px solid #b88384;
+}
+
+section .login_box1 .simple ul li a{
+    color: #ff0036;
+}
+section .login_box1 .simple p{
+    margin: 20px 0 0 48px;
+    height: 20px;
+    width: 100px;
+    color: #9c9c9c ;
+}
+section .login_box1 .simple .tu{
+    width: 30px;
+    height: 28px;
+   position: absolute;
+    left: 10px;
+    top:8px
+}
+section .login_box1 .simple .tu img{
+    width: 30px;
+    height: 28px;
+}
+section .login_box1 .bottom {
+    margin: 35px 0 0 40px;
+}
+section .login_box1 .bottom ul li{
+    float: right;
+   margin-right: 35px;
+
+}
+section .login_box1 .bottom ul li a{
+    color: black;
+}
+section .login_box1 .bottom ul li a:hover{
+    color: #ff0036;
+}
+/*底部*/
+footer{
+    width: 1160px;
+    margin: 30px 0 30px 100px;
+}
+footer .footer_one{
+    width: 1160px;
+   /* height: 20px;*/
+
+}
+footer .footer_one ul li{
+
+    float: left;
+    margin: 0 20px 0 0;
+}
+footer .footer_one ul li a{
+    color: black;
+    font-size: 12px;
+}
+footer .footer_two{
+    width: 1160px;
+    clear: both;
+    overflow: hidden;
+}
+footer .footer_two ul li{
+    float: left;
+    margin: 10px  18px 0 0;
+
+}
+footer .footer_two ul li a{
+    font-size: 12px;
+    color: black;
+}
+footer .footer_third{
+    width: 1160px;
+    clear: both;
+    overflow: hidden;
+}
+
+footer .footer_third ul li{
+    float: left;
+    margin: 10px 56px 0 0;
+    font-size: 12px;
+}
+footer .footer_third ul li a{
+    color: #c4c8c9;
+}
+
+footer .footer_four{
+    margin-top: 10px;
+    color: #c4c8c9;
+    font-size: 12px;
+}
+
+
+
+
+

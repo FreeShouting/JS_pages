@@ -1,0 +1,307 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #f5f5f7;
+}
+#conBox{
+    height: 550px;
+    width: 900px;
+    background: #fff;
+    margin: 20px auto;
+}
+#conBox .title{
+   height: 70px;
+}
+#conBox .title h2{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: normal;
+    line-height: 60px;
+    font-family: "微软雅黑";
+}
+#conBox .content{
+    height: 500px;
+    width:800px;
+    margin: 20px auto;
+}
+/*用户名*/
+#conBox .content .user{
+    width: 650px;
+    margin-top: 10px;
+    margin-left:100px;
+    position: relative;
+}
+#conBox #username{
+    height: 35px;
+    width:260px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+    outline: none;
+}
+#conBox #username:focus{
+    border: 1px solid #2aabd2;
+}
+
+#conBox .content .user label{
+    font-size: 14px;
+}
+#conBox .content .user .f04{
+    padding-right: 5px;
+    color: #ff6254;
+}
+.content .user .request{
+    font-size: 12px;
+    width: 260px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top: 3px;
+    color: #b6bacc;
+}
+.content .user .Pan{
+    font-size: 12px;
+    color: red;
+    width: 260px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
+/*手机号*/
+#conBox .content .phone{
+    width: 650px;
+    margin-top: 30px;
+    margin-left:100px;
+    position: relative;
+}
+#conBox .phone #phone{
+    height: 35px;
+    width:260px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+    outline: none;
+}
+#conBox #phone:focus{
+    border: 1px solid #2aabd2;
+}
+#conBox .content .phone label{
+    font-size: 14px;
+}
+#conBox .content .phone .f04{
+    padding-right: 5px;
+    color: #ff6254;
+}
+.content .phone .request{
+    font-size: 12px;
+    width: 260px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top: 8px;
+    color: #b6bacc;
+}
+.content .phone .Pan{
+    font-size: 12px;
+    color: red;
+    width: 260px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
+/*密码*/
+#conBox .content .password{
+    width: 650px;
+    margin-top: 30px;
+    margin-left:100px;
+    position: relative;
+}
+#conBox .password #password{
+    height: 35px;
+    width:260px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+    outline: none;
+}
+#conBox #password:focus{
+    border: 1px solid #2aabd2;
+}
+#conBox .content .password label{
+    font-size: 14px;
+}
+#conBox .content .password .f04{
+    padding-left:15px ;
+    color: #ff6254;
+}
+.content .password .request{
+    font-size: 12px;
+    width: 260px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top: 8px;
+    color: #b6bacc;
+}
+.content .password .img_show{
+    position: absolute;
+    left:320px;
+    top: 10px;
+}
+.content .password .Pan{
+    font-size: 12px;
+    color: red;
+    width: 260px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
+/*确认密码*/
+#conBox .content .r_password{
+    width: 660px;
+    margin-top: 30px;
+    margin-left:90px;
+    position: relative;
+}
+#conBox .r_password #r_password{
+    height: 35px;
+    width:260px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+    outline: none;
+}
+#conBox #r_password:focus{
+    border: 1px solid #2aabd2;
+}
+#conBox .content .r_password label{
+    font-size: 14px;
+}
+#conBox .content .r_password .f04{
+     padding-right: 5px;
+    color: #ff6254;
+}
+.content .r_password .request{
+    font-size: 12px;
+    width: 260px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top: 8px;
+    color: #b6bacc;
+}
+.content .r_password .img_show{
+    position: absolute;
+    left:330px;
+    top: 10px;
+}
+.content .r_password .Pan{
+    font-size: 12px;
+    color: red;
+    width: 260px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
+/*验证码*/
+#conBox .content .vertify_m{
+    width: 660px;
+    margin-top: 30px;
+    margin-left:100px;
+    position: relative;
+}
+#conBox .vertify_m #vertify_m{
+    height: 35px;
+    width: 170px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+    outline: none;
+}
+#conBox #vertify_m:focus{
+    border: 1px solid #2aabd2;
+}
+#conBox .content .vertify_m label{
+    font-size: 14px;
+}
+#conBox .content .vertify_m .f04{
+    padding-right: 5px;
+    color: #ff6254;
+}
+.content .vertify_m .request{
+    font-size: 12px;
+    width: 260px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    right: 35px;
+    top: 8px;
+    color: #b6bacc;
+}
+.content .vertify_m .request a{
+    color:#2aabd2;
+}
+.content .vertify_m .img_show{
+    position: absolute;
+    left:270px;
+    top: 5px;
+}
+.content .vertify_m .Pan{
+    font-size: 12px;
+    color: red;
+    width: 260px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    right: -60px;
+    top: 10px;
+}
+/*条款*/
+.content .compass{
+    margin-top: 30px;
+    margin-left:170px;
+}
+.content .compass input{
+    border: 1px solid #dbdbdb;
+    height: 15px;
+    width: 15px;
+}
+.content .compass a{
+    padding-left: 5px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #000;
+}
+.content .compass a:hover{
+    color:#2aabd2;
+}
+/*注册*/
+.content .res{
+    margin-top: 10px;
+    margin-left:170px;
+}
+
+.content .res button{
+    height: 40px;
+    width:240px;
+    background: #12a9d5;
+    color: #fff;
+    font-size: 20px;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}

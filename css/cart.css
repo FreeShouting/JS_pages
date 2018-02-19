@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.cartMain{
+    width: 1200px;
+    margin: 0 auto 100px auto ;
+    border:1px solid red;
+}
+/*购物车顶部的布局*/
+.cartMain .cartTop{
+    width: 1100px;
+    margin-top: 10px;
+    clear: both;
+    overflow: hidden;
+}
+/*购物车的列表*/
+.cartMain .cartTop ul li{
+    float: left;
+    font-size: 14px;
+}
+.cartMain .cartTop .shop{
+    margin-left: 150px;
+}
+.cartMain .cartTop .index{
+    margin-left:150px;
+}
+.cartMain .cartTop .price{
+    margin-left: 200px;
+}
+
+.cartMain .cartTop .math{
+margin-left: 100px;
+}
+.cartMain .cartTop .price_all{
+    margin-left:120px;
+}
+.cartMain .cartTop .opc{
+    margin-left: 100px
+}
+.shop_one{
+    margin-top: 30px;
+}
+ .shop_one a{
+    color: black;
+    font-size: 13px;
+}
+
+/*下面商品的部分*/
+.cartMain .cartCenter {
+    width: 1200px;
+    margin-top: 5px;
+    border: 1px solid #e5e5e5;
+}
+.cartMain .cartCenter .cartCenter_top{
+    width: 1200px;
+    height: 120px;
+    border-bottom:1px solid #e5e5e5;
+}
+.cartMain .cartCenter .cartCenter_top ul li{
+    float: left;
+}
+.cartMain .cartCenter .cartCenter_top .list_img{
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.cartMain .cartCenter .cartCenter_top .list_shop .img{
+    height: 90px;
+    width:90px
+}
+.cartMain .cartCenter .cartCenter_top .list_shop .list_text{
+    margin-top:15px;
+    margin-left: 20px;
+}
+.cartMain .cartCenter .cartCenter_top .list_shop .list_text p{
+     width: 240px;
+ }
+.cartMain .cartCenter .cartCenter_top .list_shop .list_text p a{
+    font-size: 12px;
+    color: black;
+}
+.cartMain .cartCenter .cartCenter_top .list_shop .list_text p a:hover{
+    color: #ff873e;
+}
+.cartMain .cartCenter .cartCenter_top .list_shop .list_info{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.cartMain .cartCenter .cartCenter_top .list_shop .list_info p{
+    font-size: 12px;
+    color: #c4c8c9;
+}
+.cartMain .cartCenter .cartCenter_top .list_price{
+    margin-left: 150px;
+    margin-top: 15px;
+}
+.cartMain .cartCenter .cartCenter_top .list_price p{
+    font-weight: 600;
+    font-size: 13px;
+}
+.cartMain .cartCenter .cartCenter_top .list_mount{
+    margin: 15px 0 0 80px;
+}
+.cartMain .cartCenter .cartCenter_top .list_mount .mount_box{
+    position: relative;
+}
+.cartMain .cartCenter .cartCenter_top .list_mount .mount_box .reduce{
+    background: #e5e5e5;
+}
+.cartMain .cartCenter .cartCenter_top .list_mount .mount_box a{
+    display: inline-block;
+    height: 25px;
+    width: 20px;
+    float: left;
+    text-align: center;
+}
+
+.cartMain .cartCenter .cartCenter_top .list_mount .mount_box .plus{
+   background:#e5e5e5;
+}
+
+.cartMain .cartCenter .cartCenter_top .list_mount .mount_box .shuzi{
+    height:20px;
+    width:35px;
+    float: left;
+    text-align: center;
+}
+.cartMain .cartCenter .cartCenter_top .list_sum{
+    margin: 15px 0 0 85px;
+}
+.cartMain .cartCenter .cartCenter_top .list_sum p{
+    color: #ff0000;
+    font-weight: 600;
+    font-size: 13px;
+}
+.cartMain .cartCenter .cartCenter_top .list_remove{
+    width: 48px;
+    margin: 15px 0 0 90px;
+}
+.cartMain .cartCenter .cartCenter_top .list_remove p a{
+    font-size: 12px;
+    color: #000;
+}
+.cartMain .cartCenter .cartCenter_top .list_remove p a:hover{
+    color: #ff0000;
+    
+}
+
+.bar{
+    position: fixed;
+    width: 1200px;
+    height:50px;
+    bottom: 0;
+    left:75px;
+    background: #e5e5e5;
+
+}
+.bar .bar_one{
+    float:right;
+    color: #3c3c3c;
+}
+
+.bar .bar_one ul .oChoice{
+      font-size: 14px;
+     float: left;
+    line-height: 50px;
+    margin-right: 30px;
+}
+.bar .bar_one ul .oChoice .Ready_goods{
+    display: inline-block;
+    color: #f40;
+    padding: 0 10px;
+    font-size: 18px;
+}
+.bar .bar_one ul .oTotal{
+    font-size: 14px;
+    float: left;
+    line-height: 50px;
+}
+.bar .bar_one ul .oTotal .Suan{
+    display: inline-block;
+    color: #f40;
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+.bar .bar_one ul .Btn_all{
+    height: 50px;
+    width: 100px;
+    background: #B0B0B0;
+    float: right;
+   border-radius: 2px;
+
+}
+.bar .bar_one .Btn_all a{
+    display: inline-block;
+    height: 50px;
+    width: 100px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    cursor: not-allowed;
+
+}
+
+.bar .bar_one .Btn_all a.add{
+   background: #f40;
+    cursor: pointer;
+}
+
+

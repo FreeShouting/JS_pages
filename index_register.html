@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>注册</title>
+  <link rel="stylesheet" href="./css/register.css">
+  <script src="../public/js/jquery-3.2.1.js"></script>
+  <script src="./JS/register.js"></script>
+</head>
+<body>
+<!--中间的大盒子-->
+  <div id="conBox">
+     <div class="title"><h2>用&nbsp;户&nbsp;注&nbsp;册</h2></div>
+    <div class="content">
+      <!--用户名-->
+      <div class="user">
+        <b class="f04">*</b><label>用户名：</label>
+        <input type="text" name="username" id="username" class="add" placeholder="请输入">
+        <span class="request">3-20位，中文、字母、数字、下划线的组合，以中文或字母开头</span>
+        <span class="Pan" style="display: none">用户名不能为空</span>
+        <label class="right" style="display: none">√</label>
+      </div>
+      <!--手机号码-->
+      <div class="phone">
+        <b class="f04">*</b><label>手机号：</label>
+        <input type="text" name="phone" id="phone"  placeholder="手机号">
+        <span class="request">请填写11位有效的手机号码</span>
+        <span class="Pan" style="display: none">手机号码不能为空</span>
+        <label class="right" style="display: none">√</label>
+      </div>
+       <!--密码-->
+      <div class="password">
+        <b class="f04">*</b><label>&nbsp;密码：</label>
+        <input type="password" name="phone" id="password"  placeholder="请输入密码">
+         <p class="img_show"><img src="./images/showPwd.png" alt=""></p>
+        <span class="request">6-20位英文(区分大小写)、数字、字符的组合</span>
+        <span class="Pan" style="display: none">密码不能为空</span>
+        <label class="right" style="display: none">√</label>
+      </div>
+      <!--确认密码-->
+      <div class="r_password">
+        <b class="f04">*</b><label>确认密码：</label>
+        <input type="password" name="phone" id="r_password"  placeholder="请输入密码">
+        <p class="img_show"><img src="./images/showPwd.png" alt=""></p>
+        <span class="request">请在输入一遍上面的密码</span>
+        <span class="Pan" style="display: none">密码不能为空</span>
+        <label class="right" style="display: none">√</label>
+      </div>
+      <!--验证码-->
+      <div class="vertify_m">
+      <b class="f04">*</b><label>验证码：</label>
+      <input type="text" name="phone" id="vertify_m"  placeholder="请输入验证码">
+      <p class="img_show"><img src="./images/yzm.jpg" alt=""></p>
+      <span class="request">看不清？<a href="javascript:">换一张</a></span>
+        <span class="Pan" style="display: none">验证码不能为空</span>
+    </div>
+      <!--同意条款-->
+      <div class="compass">
+        <input type="checkbox" checked><a href="javascript:">我已阅读并同意条款</a>
+      </div>
+      <div class="res">
+        <button>注&nbsp;&nbsp;册</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
